@@ -1,13 +1,4 @@
 #!/usr/bin/env python3
-"""
-Safe parody prank:
-- Changes wallpaper (loops every 3s)
-- Shows a borderless always-on-top parody window with a password box
-- Enter the correct password to restore wallpaper, stop sound, and exit
-- Emergency abort: Ctrl+Alt+Shift+Q (restores wallpaper and quits)
-- Does NOT encrypt or modify user files
-- Windows-only (uses winreg/SystemParametersInfoW)
-"""
 
 import tkinter as tk
 import threading
@@ -262,3 +253,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
